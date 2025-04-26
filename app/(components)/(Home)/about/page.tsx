@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image';
 import SectionHeading from '../../Helper/SectionHeading';
 
 const AboutUs = () => {
@@ -11,13 +12,13 @@ const AboutUs = () => {
             <div className="w-full justify-start items-center gap-12 grid lg:grid-cols-2 grid-cols-1">
               <div className="w-full justify-center items-start gap-6 grid sm:grid-cols-2 grid-cols-1 lg:order-first order-last">
                 <div className="pt-24 lg:justify-center sm:justify-end justify-start items-start gap-2.5 flex">
-                  <img
+                  <Image
                     className=" rounded-xl object-cover"
                     src="https://pagedone.io/asset/uploads/1717741205.png"
                     alt="about Us image"
                   />
                 </div>
-                <img
+                <Image
                   className="sm:ml-0 ml-auto rounded-xl object-cover"
                   src="https://pagedone.io/asset/uploads/1717741215.png"
                   alt="about Us image"
