@@ -5,18 +5,19 @@ import {
   FaLinkedinIn,
   FaTwitter,
 } from "react-icons/fa";
+import SectionHeading from "../../Helper/SectionHeading";
 
 const ContactUs = () => {
   return (
     <div className="pt-28 pb-10 rounded-2xl ">
-      {/* <SectionHeading heading="Contact Us" /> */}
+      <SectionHeading heading="Contact Us" />
       <div className="w-[80%] mx-auto h-auto shadow-lg bg-gray-100 rounded-2xl p-4 mt-6">
         <div className="flex flex-col lg:flex-row gap-6">
           {/* Contact Form Section */}
           <div className="flex-1 bg-white p-6 rounded-2xl shadow-md">
-            <h2 className="text-2xl font-bold mb-4 text-gray-800">
+            {/* <h2 className="text-2xl font-bold mb-4 text-gray-800">
               Get in Touch
-            </h2>
+            </h2> */}
 
             <form className="flex flex-col gap-3">
               <div>
