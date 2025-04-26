@@ -1,6 +1,6 @@
-import React from 'react'
-import Image from 'next/image';
-import SectionHeading from '../../Helper/SectionHeading';
+import React from "react";
+import Image from "next/image";
+import SectionHeading from "../../Helper/SectionHeading";
 
 const AboutUs = () => {
   return (
@@ -13,7 +13,7 @@ const AboutUs = () => {
               <div className="w-full justify-center items-start gap-6 grid sm:grid-cols-2 grid-cols-1 lg:order-first order-last">
                 <div className="pt-24 lg:justify-center sm:justify-end justify-start items-start gap-2.5 flex">
                   <Image
-                    className=" rounded-xl object-cover"
+                    className="rounded-xl object-cover"
                     src="https://pagedone.io/asset/uploads/1717741205.png"
                     alt="about Us image"
                     width={500}
@@ -35,10 +35,9 @@ const AboutUs = () => {
                       Empowering Each Other to Succeed
                     </h2>
                     <p className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
-                      Every project we've undertaken has been a collaborative
-                      effort, where every person involved has left their mark.
-                      Together, we've not only constructed buildings but also
-                      built enduring connections that define our success story.
+                      {
+                        "Every project we've undertaken has been a collaborative effort, where every person involved has left their mark. Together, we've not only constructed buildings but also built enduring connections that define our success story."
+                      }
                     </p>
                   </div>
                   <div className="w-full lg:justify-start justify-center items-center sm:gap-10 gap-5 inline-flex">
@@ -80,6 +79,6 @@ const AboutUs = () => {
       </div>
     </div>
   );
-}
+};
 
-export default AboutUs
+export default AboutUs;
